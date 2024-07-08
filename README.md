@@ -24,9 +24,6 @@ Technologies Used
 
    
 
-**Live Demo**
-
-You can view a live demo of the contact form [here](https://your-demo-link.com).
 
 
 
