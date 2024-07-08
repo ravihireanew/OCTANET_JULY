@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page- products</title>
+   <link rel="stylesheet" href="style.css">
+    <style>
+
+    
+
+
+
+
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto; /* Center the container with top margin */
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper {
+    display: flex;
+    animation: slide 20s infinite;
+}
+
+.wrapper img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover; /* Ensures images fit nicely */
+}
+
+@keyframes slide {
+    0%, 25% {
+        transform: translateX(0);
+    }
+    30%, 50% {
+        transform: translateX(-100%);
+    }
+    55%, 75% {
+        transform: translateX(-200%);
+    }
+    80%, 100% {
+        transform: translateX(-300%);
+    }
+}
+
+    </style>
+</head>
+<body>
+            <header>
+                 <div class="logo">
+                    <div>
+                      <a href="landing.html"><img src="img/logo-removebg-preview.png" alt="logo" id="logo"></a>
+                    </div>
+                      <h1>Headphones pvt ltd</h1>
+                    <div class="links">
+                      <ul><a href="landing.html">Home</a></ul>
+                      <ul><a href="products.html">Products</a></ul>
+                      <ul><a href="contact.html">Contact</a></ul>
+                     </div>
+                 </div>
+           </header>
+
+    <div class="container">
+        <div class="wrapper">
+            <img src="img/images-removebg-preview.png" alt="">
+            <br>
+            <img src="img/logo-removebg-preview.png" alt="">
+            <img src="img/pngtree-blue-in-ear-headphones-illustration-image_1405867-removebg-preview.png" alt="">
+            <img src="img/pngimg.com_-_headphones_PNG101971-removebg-preview.png" alt="">
+            <img src="img/logo-removebg-preview.png" alt="">
+            
+        </div>
+    </div>
+</body>
+
+</html>
